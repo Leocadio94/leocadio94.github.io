@@ -58,6 +58,7 @@ nav {
 }
 .navbar {
     background: rgba(0, 60, 40, 1);
+    border-color: rgba(0, 60, 40, 1);
 }
 #nome, .nav.navbar-nav.navbar-right li a {
     color: white;
@@ -216,7 +217,7 @@ body {
 
 .img-portfolio {
     width: 420px;
-    height: 300px;
+    height: 295px;
 }
 .overlay {
     background-color: rgba(0, 0, 0, 0.5);
