@@ -40,15 +40,18 @@ nav {
     -o-background-size: cover;
     background-size: cover;
 }
-#home-filter, #about-filter, #contact-filter {
+#home-filter, #contact-filter {
     padding-top: 15%;
 }
-#portfolio-filter{
-  padding-top: 1px;
+#about-filter {
+    padding-top: 5%;
+}
+#portfolio-filter {
+    padding-top: 1px;
 }
 #portfolio-filter h2 {
-  padding-top: 25px;
-  padding-bottom: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 .navbar a {
     background: rgba(0, 0, 0, 0.1);
@@ -206,15 +209,13 @@ body {
         height: 2000px;
     }
 }
-
 @media screen and ( max-width: 1200px) {
     #foto {
-      margin-left: 0px;
-      padding-left: 0px;
-      margin: 0 auto;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin: 0 auto;
     }
 }
-
 .img-portfolio {
     width: 420px;
     height: 295px;
