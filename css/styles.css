@@ -34,7 +34,7 @@ nav {
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
 }
 #home, #home-filter, #about, #about-filter, #portfolio, #portfolio-filter, #contact, #contact-filter {
-    height: 850px;
+    height: 950px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
