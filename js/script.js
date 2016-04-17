@@ -3,7 +3,7 @@ $(document).ready(function() {
     $("#about").backstretch("img/about.jpg");
     $("#portfolio").backstretch("img/portfolio.jpg");
     $("#contact").backstretch("img/contact.jpg");
-
+    
     $("#toTop").hide();
 
     // fade in & out
