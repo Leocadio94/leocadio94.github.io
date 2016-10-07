@@ -106,7 +106,7 @@ body {
 }
 .hovereffect {
     width: 70%;
-    height: 50%;
+    height: 250px;
     float: left;
     overflow: hidden;
     position: relative;
