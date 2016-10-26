@@ -3,6 +3,9 @@ html {
     height: 100%;
     overflow-x: hidden;
 }
+body {
+    background: rgba(0, 0, 0, 0.1);
+}
 nav {
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
@@ -10,6 +13,11 @@ nav {
 .texto {
     color: white;
     text-shadow: 4px 4px 1px #000;
+}
+.texto-menor{
+    color: white;
+    text-shadow: 4px 4px 1px #000;
+    font-size: 20px;
 }
 .botao {
     background-color: rgba(0, 60, 40, 1);
@@ -49,15 +57,8 @@ nav {
 #home-filter, #contact-filter {
     padding-top: 15%;
 }
-#about-filter {
-    padding-top: 5%;
-}
-#portfolio-filter {
+#contact-filter, #about-filter, #portfolio-filter  {
     padding-top: 1px;
-}
-#portfolio-filter h2 {
-    padding-top: 25px;
-    padding-bottom: 20px;
 }
 .navbar a {
     background: rgba(0, 0, 0, 0.1);
@@ -75,19 +76,18 @@ nav {
 #nome:hover, .nav.navbar-nav.navbar-right li a:hover {
     background: rgba(0, 0, 0, 0.4);
 }
-body {
-    background: rgba(0, 0, 0, 0.1);
-}
 .line-header {
     width: 800px;
 }
-#sobre, #contato {
-    background: rgba(0, 0, 0, 0.5);
+#sobre {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
     font-size: 1.3em;
 }
 #contato {
+    margin-top: 15%;
+    border: 1px solid white;
     padding: 5px;
-    font-size: 1.3em;
+    font-size: 2.0em;
 }
 #photo {
     padding-left: 50px;
@@ -109,7 +109,6 @@ body {
     }
     #contato {
         margin-right: 25%;
-        margin-top: 20px;
     }
 }
 .hovereffect {
@@ -193,7 +192,7 @@ body {
     transform: translate3d(0, 0, 0);
 }
 .link-overlay {
-    font-size: 4.0em;
+  font-size: 4.0em;
 }
 #botoes-contato {
   padding-top: 10px;
@@ -255,7 +254,6 @@ body {
 }
 footer {
     padding-top: 20px;
-    font-family: sans, Roboto;
-    font-size: 0.9em;
+    font-size: 20px;
     color: #162120;
 }
