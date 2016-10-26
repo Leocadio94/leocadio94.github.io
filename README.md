@@ -14,4 +14,3 @@ No FreeCodeCamp, desenvolvi alguns projetos front-end, que constam no meu portfo
 - JavaScript
 - JQuery
 - Bootstrap
-- [Backstretch](http://srobbin.com/jquery-plugins/backstretch/)

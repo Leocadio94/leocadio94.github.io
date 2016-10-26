@@ -1,9 +1,4 @@
 $(document).ready(function() {
-    $("#home").backstretch("img/home.jpg");
-    $("#about").backstretch("img/about.jpg");
-    $("#portfolio").backstretch("img/portfolio.jpg");
-    $("#contact").backstretch("img/contact.jpg");
-    
     $("#toTop").hide();
 
     // fade in & out
