@@ -25,24 +25,18 @@ nav {
 	background: url('../img/home.jpg') no-repeat center center;
 }
 #about {
-	background: url('../img/about.jpg') no-repeat center center;	
+	background: url('../img/about.jpg') no-repeat center center;
 }
 #portfolio {
-	background: url('../img/portfolio.jpg') no-repeat center center;	
+	background: url('../img/portfolio.jpg') no-repeat center center;
 }
 #contact {
-	background: url('../img/contact.jpg') no-repeat center center;	
+	background: url('../img/contact.jpg') no-repeat center center;
 }
-#home-filter {
+#home-filter, #portfolio-filter {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
 }
-#about-filter {
-    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
-}
-#portfolio-filter {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
-}
-#contact-filter {
+#about-filter, #contact-filter {
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
 }
 #home, #home-filter, #about, #about-filter, #portfolio, #portfolio-filter, #contact, #contact-filter {
@@ -84,7 +78,7 @@ nav {
 body {
     background: rgba(0, 0, 0, 0.1);
 }
-#line-header {
+.line-header {
     width: 800px;
 }
 #sobre, #contato {
@@ -92,6 +86,7 @@ body {
     font-size: 1.3em;
 }
 #contato {
+    padding: 5px;
     font-size: 1.3em;
 }
 #photo {
@@ -113,6 +108,7 @@ body {
         margin-left: 25%;
     }
     #contato {
+        margin-right: 25%;
         margin-top: 20px;
     }
 }
@@ -199,11 +195,16 @@ body {
 .link-overlay {
     font-size: 4.0em;
 }
-@media screen and ( max-width: 1199px) {
-    #photo {
-        padding-left: 80px;
-        padding-top: 10px;
-    }
+#botoes-contato {
+  padding-top: 10px;
+}
+#contato .texto a {
+  text-decoration: none;
+  color: white;
+}
+#contato .texto a:hover {
+  text-decoration: none;
+  color: gray;
 }
 @media screen and ( max-width: 1199px) {
     #photo {
@@ -213,12 +214,17 @@ body {
 }
 @media screen and ( max-width: 1200px) {
     #portfolio, #portfolio-filter {
-        height: 1100px;
+        height: 1500px;
     }
 }
-@media screen and ( max-width: 745px) {
+@media screen and ( max-width: 770px) {
     #portfolio, #portfolio-filter {
-        height: 2000px;
+        height: 2700px;
+    }
+}
+@media screen and ( max-width: 335px) {
+    #portfolio, #portfolio-filter {
+        height: 2900px;
     }
 }
 @media screen and ( max-width: 1200px) {
