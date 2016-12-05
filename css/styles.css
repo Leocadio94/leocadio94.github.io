@@ -30,16 +30,16 @@ nav {
     box-shadow: 10px 10px 5px #000000;
 }
 #home {
-	background: url('../img/home.jpg') no-repeat center center;
+	background: url('https://i.imgur.com/wmrevXR.jpg') no-repeat center center;
 }
 #about {
-	background: url('../img/about.jpg') no-repeat center center;
+	background: url('https://i.imgur.com/CJWWcaf.jpg') no-repeat center center;
 }
 #portfolio {
-	background: url('../img/portfolio.jpg') no-repeat center center;
+	background: url('https://i.imgur.com/7YxvexT.jpg') no-repeat center center;
 }
 #contact {
-	background: url('../img/contact.jpg') no-repeat center center;
+	background: url('https://i.imgur.com/GaHXkey.jpg') no-repeat center center;
 }
 #home-filter, #portfolio-filter {
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
